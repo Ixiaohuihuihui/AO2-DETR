@@ -1,48 +1,9 @@
-<div align="center">
-  <img src="resources/mmrotate-logo.png" width="450"/>
-  <div>&nbsp;</div>
-  <div align="center">
-    <b><font size="5">OpenMMLab website</font></b>
-    <sup>
-      <a href="https://openmmlab.com">
-        <i><font size="4">HOT</font></i>
-      </a>
-    </sup>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <b><font size="5">OpenMMLab platform</font></b>
-    <sup>
-      <a href="https://platform.openmmlab.com">
-        <i><font size="4">TRY IT OUT</font></i>
-      </a>
-    </sup>
-  </div>
-  <div>&nbsp;</div>
-
-[![Documentation](https://readthedocs.org/projects/mmrotate/badge/?version=latest)](https://mmrotate.readthedocs.io/en/latest/?badge=latest)
-[![actions](https://github.com/open-mmlab/mmrotate/workflows/build/badge.svg)](https://github.com/open-mmlab/mmrotate/actions)
-[![codecov](https://codecov.io/gh/open-mmlab/mmrotate/branch/master/graph/badge.svg)](https://codecov.io/gh/open-mmlab/mmrotate)
-[![PyPI](https://img.shields.io/pypi/v/mmrotate)](https://pypi.org/project/mmrotate/)
-[![LICENSE](https://img.shields.io/github/license/open-mmlab/mmrotate.svg)](https://github.com/open-mmlab/mmrotate/blob/master/LICENSE)
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/open-mmlab/mmrotate.svg)](https://github.com/open-mmlab/mmrotate/issues)
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/open-mmlab/mmrotate.svg)](https://github.com/open-mmlab/mmrotate/issues)
-
-[📘Documentation](https://mmrotate.readthedocs.io/en/latest/) |
-[🛠️Installation](https://mmrotate.readthedocs.io/en/latest/install.html) |
-[👀Model Zoo](docs/en/model_zoo.md) |
-[🤔Reporting Issues](https://github.com/open-mmlab/mmrotate/issues/new/choose)
-</div>
 
 ## Introduction
 
 English | [简体中文](README_zh-CN.md)
 
-MMRotate is an open-source toolbox for rotated object detection based on PyTorch.
-It is a part of the [OpenMMLab project](https://github.com/open-mmlab).
-
-The master branch works with **PyTorch 1.6+**.
-
-https://user-images.githubusercontent.com/10410257/154433305-416d129b-60c8-44c7-9ebb-5ba106d3e9d5.MP4
-
+AO2-DETR: Arbitrary-Oriented Object Detection Transformer (https://arxiv.org/abs/2205.12785).
 
 <details open>
 <summary><b>Major Features</b></summary>
