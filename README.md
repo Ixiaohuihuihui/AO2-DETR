@@ -1,25 +1,10 @@
 
 ## Introduction
 
-English | [简体中文](README_zh-CN.md)
-
-AO2-DETR: Arbitrary-Oriented Object Detection Transformer (https://arxiv.org/abs/2205.12785).
+### AO2-DETR: Arbitrary-Oriented Object Detection Transformer (https://arxiv.org/abs/2205.12785).
 
 <details open>
-<summary><b>Major Features</b></summary>
-
-* **Support multiple angle representations**
-
-  MMRotate provides three mainstream angle representations to meet different paper settings.
-
-* **Modular Design**
-
-  We decompose the rotated object detection framework into different components,
-  which makes it much easy and flexible to build a new model by combining different modules.
-
-* **Strong baseline and State of the art**
-
-  The toolbox provides strong baselines and state-of-the-art methods in rotated object detection.
+<summary><b>Deformable DETR</b></summary>
 
 </details>
 
