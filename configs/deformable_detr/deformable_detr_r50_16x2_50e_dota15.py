@@ -138,4 +138,4 @@ optimizer = dict(
 optimizer_config = dict(grad_clip=dict(max_norm=35, norm_type=2))
 # learning policy
 lr_config = dict(policy='step', step=[40])
-runner = dict(type='EpochBasedRunner', max_epochs=70)
+runner = dict(type='EpochBasedRunner', max_epochs=50)
