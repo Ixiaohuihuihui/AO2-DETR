@@ -2,6 +2,9 @@
 ## Introduction
 
 ### AO2-DETR: Arbitrary-Oriented Object Detection Transformer (https://arxiv.org/abs/2205.12785).
+In this paper, we propose an end-to-end transformer-based detector AO2-DETR for arbitrary-oriented object detection.
+The proposed AO2-DETR comprises dedicated components to address AOOD challenges, including an oriented proposal generation mechanism, an adaptive oriented proposal refinement module, and a rotation aware set matching loss in order to accurately detect oriented objects in images. The encoderdecoder architecture transforms the oriented proposals (served as object queries) into each corresponding object, which eliminates the need for hand-designed components and complex pre/post-processing. Our approach achieves state-of-theart performance compared to recently anchor-free and singlestage methods on the oriented datasets (DOTA, SKU110K-R and HRSC2016 datasets). We validate that the transformer can enable adaptive receptive fields for oriented objects, thus it can deal with oriented and irregular placed objects naturally.
+Furthermore, we hope that this encoder-decoder paradigm will promote future works in oriented object detection.
 ![Snipaste_2022-06-17_11-58-45](https://user-images.githubusercontent.com/26215859/174222183-2de9fe00-8dd2-4535-8427-d9c385f145f8.png)
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/26215859/192183273-e86ee8f0-e96e-4251-a4c3-20885cb497f9.png">
 
