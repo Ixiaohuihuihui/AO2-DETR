@@ -23,6 +23,7 @@ CUDA_VISIBLE_DEVICES=2,3 ./tools/dist_train.sh configs/deformable_detr/deformabl
 ```
 CUDA_VISIBLE_DEVICES=5 ./tools/dist_test.sh configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_dota.py work_dirs/deformable_detr_twostage_refine_r50_16x2_50e_dota/epoch_50.pth 1 --format-only --eval-options submission_dir=work_dirs/deformable_detr_twostage_refine_r50_16x2_50e_dota/Task1_results 
 ```
+有问题欢迎提issue～～更细节的问题也可以发邮件哦
 ### Some Results
 ![image](https://user-images.githubusercontent.com/26215859/174222334-df51f640-c267-4f1e-a9e4-25edd2b9eee1.png)
 
